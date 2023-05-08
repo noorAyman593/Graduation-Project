@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="2dp"
+                    android:src="@drawable/date"
+                    android:tint="@color/basic"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:text="Select Appointment Time"
+                    android:layout_marginStart="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:gravity="center"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/basic"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:text="2:00"
+                    android:textSize="18sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/basic"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:text="2:00"
+                    android:textSize="18sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/basic"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:text="2:00"
+                    android:textSize="18sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/basic"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:text="2:00"
+                    android:textSize="18sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/basic"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:text="2:00"
+                    android:textSize="18sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/basic"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:text="2:00"
+                    android:textSize="18sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/basic"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:text="2:00"
+                    android:textSize="18sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+            </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:card_view="http://schemas.android.com/tools"-->
+<!--    app:cardCornerRadius="15dp"-->
+<!--    app:cardElevation="10dp"-->
+<!--    app:cardUseCompatPadding="true"-->
+<!--    card_view:cardCornerRAdius="5dp">-->
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="3dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:padding="2dp"-->
+<!--                android:src="@drawable/date"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"/>-->
+<!--            <TextView-->
+<!--                android:text="Select Appointment Time"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textColor="#605E5E"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:orientation="vertical">-->
+<!--            <GridLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:columnCount="2"-->
+<!--                android:rowCount="3"-->
+<!--                android:alignmentMode="alignMargins"-->
+<!--                android:columnOrderPreserved="false">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/d1"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    app:cardElevation="6dp"-->
+<!--                    app:cardCornerRadius="12dp"-->
+<!--                    android:layout_margin="12dp"-->
+<!--                    app:cardBackgroundColor="#98ddca"-->
+<!--                    >-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:padding="16dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="80dp"-->
+<!--                            android:layout_height="80dp"-->
+<!--                            android:src="@drawable/heart_rate3"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="12dp"-->
+<!--                            android:text="What is Heart Rate?"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:textColor="@color/white"/>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/d3"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    app:cardElevation="6dp"-->
+<!--                    app:cardCornerRadius="12dp"-->
+<!--                    android:layout_margin="12dp"-->
+<!--                    app:cardBackgroundColor="#ffd3b4"-->
+<!--                    >-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:padding="16dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="80dp"-->
+<!--                            android:layout_height="80dp"-->
+<!--                            android:src="@drawable/heart_rate4"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="12dp"-->
+<!--                            android:text="Common Heart Diseases"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:textColor="@color/white"/>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/d4"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    app:cardElevation="6dp"-->
+<!--                    app:cardCornerRadius="12dp"-->
+<!--                    android:layout_margin="12dp"-->
+<!--                    app:cardBackgroundColor="#ffaaa7"-->
+<!--                    >-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:padding="16dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="80dp"-->
+<!--                            android:layout_height="80dp"-->
+<!--                            android:src="@drawable/heart_rate5"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="12dp"-->
+<!--                            android:text="Know about Hypotension"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:textColor="@color/white"/>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/d5"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    app:cardElevation="6dp"-->
+<!--                    app:cardCornerRadius="12dp"-->
+<!--                    android:layout_margin="12dp"-->
+<!--                    app:cardBackgroundColor="#a7c5eb"-->
+<!--                    >-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:padding="16dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="80dp"-->
+<!--                            android:layout_height="80dp"-->
+<!--                            android:src="@drawable/heart_rare1"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="12dp"-->
+<!--                            android:text="High Heart Rate Complications"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:textColor="@color/white"/>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/d6"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    app:cardElevation="6dp"-->
+<!--                    app:cardCornerRadius="12dp"-->
+<!--                    android:layout_margin="12dp"-->
+<!--                    app:cardBackgroundColor="#949cdf"-->
+<!--                    >-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:padding="16dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="80dp"-->
+<!--                            android:layout_height="80dp"-->
+<!--                            android:src="@drawable/heart_rate6"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="12dp"-->
+<!--                            android:text="Target Heart Rate"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:textColor="@color/white"/>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </GridLayout>-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:alignmentMode="alignMargins"-->
+<!--                android:columnCount="3"-->
+<!--                android:columnOrderPreserved="false"-->
+<!--                android:rowCount="10">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:checkable="true"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardCornerRadius="15dp"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    card_view:cardCornerRAdius="5dp"-->
+<!--                    app:cardBackgroundColor="#98ddca">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:paddingStart="20dp"-->
+<!--                        android:paddingTop="10dp"-->
+<!--                        android:paddingEnd="20dp"-->
+<!--                        android:paddingBottom="10dp"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:text="2:00"-->
+<!--                        android:textSize="18sp" />-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:checkable="true"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardCornerRadius="15dp"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    card_view:cardCornerRAdius="5dp">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:paddingStart="20dp"-->
+<!--                        android:paddingTop="10dp"-->
+<!--                        android:paddingEnd="20dp"-->
+<!--                        android:paddingBottom="10dp"-->
+<!--                        android:text="2:00"-->
+<!--                        android:textSize="18sp" />-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                &lt;!&ndash;                <com.google.android.material.card.MaterialCardView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:checkable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:clickable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:focusable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardCornerRadius="15dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardElevation="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardUseCompatPadding="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    card_view:cardCornerRAdius="5dp">&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_height="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingTop="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingBottom="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingStart="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingEnd="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:text="2:00"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:textSize="18sp" />&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                </com.google.android.material.card.MaterialCardView>&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                <com.google.android.material.card.MaterialCardView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:checkable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:clickable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:focusable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardCornerRadius="15dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardElevation="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardUseCompatPadding="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    card_view:cardCornerRAdius="5dp">&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_height="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingTop="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingBottom="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingStart="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingEnd="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:text="2:00"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:textSize="18sp" />&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                </com.google.android.material.card.MaterialCardView>&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                <com.google.android.material.card.MaterialCardView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:checkable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:clickable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:focusable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardCornerRadius="15dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardElevation="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardUseCompatPadding="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    card_view:cardCornerRAdius="5dp">&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_height="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingTop="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingBottom="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingStart="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingEnd="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:text="2:00"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:textSize="18sp" />&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                </com.google.android.material.card.MaterialCardView>&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                <com.google.android.material.card.MaterialCardView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:checkable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:clickable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:focusable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardCornerRadius="15dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardElevation="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardUseCompatPadding="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    card_view:cardCornerRAdius="5dp">&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_height="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingTop="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingBottom="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingStart="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingEnd="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:text="2:00"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:textSize="18sp" />&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                </com.google.android.material.card.MaterialCardView>&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                <com.google.android.material.card.MaterialCardView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:checkable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:clickable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:focusable="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardCornerRadius="15dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardElevation="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    app:cardUseCompatPadding="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    card_view:cardCornerRAdius="5dp">&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_height="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingTop="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingBottom="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingStart="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:paddingEnd="20dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:text="2:00"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:textSize="18sp" />&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                </com.google.android.material.card.MaterialCardView>&ndash;&gt;-->
+
+<!--            </GridLayout>-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+<!--</androidx.cardview.widget.CardView>-->

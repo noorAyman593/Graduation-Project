@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">MEDI CONSULT</string>
+    <string name="title_activity_main">main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="key"> ---------- ENTER YOUR GOOGLE MAPS API KEY ----------- </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="contact">contact</string>
+    <string name="title_activity_map">Map</string>
+
+    <string-array name="symptom_list">
+        <item>SELECT SYMPTOM</item>
+        <item>Anxiety</item>
+        <item>Stomach Ache</item>
+        <item>Nausea</item>
+        <item>Vomiting</item>
+        <item>Fever</item>
+        <item>Sudden Weight Loss</item>
+        <item>Sweating</item>
+        <item>Muscle And Body Pain</item>
+        <item>Thirsty Than Usual</item>
+        <item>Headaches</item>
+        <item>Weakness/Fatigue</item>
+        <item>Abdominal Pain</item>
+        <item>Muscle Pain</item>
+        <item>Dry Cough</item>
+        <item>Diarrhoea/Constipation</item>
+        <item>Frequent Urination</item>
+        <item>Hunger</item>
+        <item>Blurred Vision</item>
+        <item>Skin Itching</item>
+        <item>Chest Pain</item>
+        <item>Shortness in Breath</item>
+        <item>Dizziness</item>
+        <item>Fast Heartbeat</item>
+        <item>Indigestion</item>
+        <item>Pressure Or Heaviness In Chest</item>
+
+    </string-array>
+
+    <string name="card1_text">What is Heart Rate?</string>
+    <string name="text1_1" formatted="false">
+        \n<font>Your heart rate, or pulse, is the number of times your heart beats per unit of time, usually a minute.</font>\n
+        \n<font>Each time the heart beats, blood is pumped out of the heart and into the body to supply oxygen to body functioning. Since the need for oxygen changes when people are under different states, such as resting, exercising, etc., the workload of the heart to circulate blood changes.</font>\n
+        \n<font>There are two different heart rate indexes, resting heart rate and target heart rate. One is for measuring how your heart beats when you are at rest. The other one is used to know what your ideal target heart rate is during exercise.</font>
+    </string>
+    <string name="card1_2text">Resting Heart Rate Ranges:</string>
+    <string name="text1_2" formatted="false">The resting heart rate is divided into three ranges, Slow, Normal and Fast. Here are the ranges of normal resting heart rate:
+        \n<font>· Children (ages 1 to 2 years): 80 to 130 beats per minute</font>
+        \n<font>. Children (ages 3 to 4 years): 80 to 120 beats per minute</font>
+        \n<font>. Children (ages 5 to 6 years): 75 to 115 beats per minute</font>
+        \n<font>. Children (ages 7 to 9 years): 70 to 110 beats per minute</font>
+        \n<font>. Children (ages 10 to 15 years): 70 to 100 beats per minute</font>
+        \n<font>• People (over 15 years old): 60 to 100 beats per minute</font>
+</string>
+    <string name="card1_3text">Exercise Intensity Ranges:</string>
+    <string name="text1_3" formatted="false">During exercise, you can see your training intensity by target heart rate. Here are the target heart rate ranges accordingly:\n
+        <font>•Warm Up:60% of HR max</font>
+        <font>•Target Training:less than 60%~ 79% of HR max</font>
+        <font>•High-intensity: 80% ~ 89% of HR max</font>
+        <font>•Extreme: >=90% of HR max</font>\n
+Please note that our app cannot be used as a replacement for professional healthcare services, if you have a consistent racing heart or any other heart rate problems, it is vital to consult your doctor in time.</string>
+
+
+    <string name="card2_text">Factors Affecting Heart Rate</string>
+    <string name="factor_text" formatted="false">\n<font size="16">Your heart rate varies throughout the day. It is because that certain factors can play a role in directly affecting your heart rate. If you read on, you will know about them.</font>
+    </string>
+    <string name="tem_text" formatted="false">
+        \n<font size="18"><b>Temperature:</b></font>
+        \n<font size="16">The change of the air temperature or your body temperature will influence your heart rate. If you feel too cold or too hot, the heart will promote blood pumping to your skin to warm or cool you, thus, making your heart rate increase no more than 5 to 10 beats per minute. Furthermore, high humidity can also cause an increase in heart rate.</font>
+    </string>
+    <string name="pos_text" formatted="false">
+        \n<font size="18"><b>Body Position:</b></font>
+        \n<font size="16">Your heart rate of different body positions usually does n\'t change. However, if you suddenly change your body position to standing up, your heart rate will increase for the first 15 to 20 seconds. Afterwards, it will return to the original number.</font>
+    </string>
+    <string name="emo_text" formatted="false">
+        \n<font size="18"><b>Emotions:</b></font>
+        \n<font size="16">Being too emotional and experiencing a stressful situation will raise your heart rate.</font>
+    </string>
+    <string name="body_text" formatted="false">
+        \n<font size="18"><b>Body Size:</b></font>
+        \n<font size="16">People who have severe obesity can have a slightly faster pulse, usually no more than 100 beats per minute.</font>
+    </string>
+    <string name="coff_text" formatted="false">
+       \n<font size="18"><b>Caffeine And Nicotine:</b></font>
+       \n<font size="16">Coffee, tea, soda and other drinks that include caffeine can raise your heart rate, so does nicotine. Within one hour of intaking caffeine, its effect on heart rate reaches its peak. Your heart rate won\'t return to the original number until after 4 to 6 hours.</font>
+   </string>
+    <string name="saturate_text" formatted="false">
+       \n<font size="18"><b>Saturated Fat and Sodium:</b></font>
+       \n<font size="16">When you eat food with too much sodium, your kidney can\'t remove enough of it. Hence, your heart tries to pump more blood to your kidney to dilute it, causing an increase in heart rate. Having food with saturated fat can raise your cholesterol. Too much cholesterol can lead to a buildup of plaque in your arteries, which can change your heart activities and increase your heart rate.</font>
+   </string>
+    <string name="alcohol_text" formatted="false">
+        \n<font size="18"><b>Alcohol:</b></font>
+        \n<font size="16">It has been proved that a man who drinks more than five alcoholic beverages and a woman who drinks more than four within two hours can have an irregular and speedy heart rate.</font>
+    </string>
+    <string name="Med_text" formatted="false">
+        \n<font size="18"><b>Medication:</b></font>
+        \n<font size="16">If you are having beta blockers, you are likely to have a slow heart rate. On the other hand, excess thyroid hormone also causes the heart to beat harder and faster and may trigger abnormal heart rhythms.</font>
+    </string>
+    <string name="age_text" formatted="false">
+        \n<font size="18"><b>Age:</b></font>
+        \n<font size="16">When you get older, your RHR !(resting heart rate) would not change notably while the THR !(training heart rate) will become slower.</font>
+    </string>
+    <string name="gender_text" formatted="false">
+        \n<font size="18"><b>Gender:</b></font>
+        \n<font size="16">The average resting heart rate of women is higher than men\'s. Nevertheless, women tend to have a lower risk of cardiac diseases than men.</font>
+    </string>
+    <string name="exercise_text" formatted="false">
+        \n<font size="18"><b>Exercise:</b></font>
+        \n<font size="16">Gradually, regular exercise will lower your resting heart rate and reduce the risk of death due to a high resting heart rate.</font>
+    </string>
+
+    <string name="card3_text">Common Heart Diseases</string>
+    <string name="text3">Several types of conditions affecting heart structure or function can be collectively called heart disease. According to the National Library of Medicine, heart disease is the leading cause of death and disability in the U.S. What needs to be mentioned is that there are many types of heart disease that are caused by different roots. Find out common types of them by reading on.</string>
+    <string name="text3_1" formatted="false">\n<font size="18"><b>• Congenital Heart Disease</b></font>
+        \n<font size="16">Congenital heart disease, also called congenital heart defect, is a kind of heart problem that presents at birth. Atypical heart valves, Septal defects, Atresia are common types of congenital heart diseases. Some congenital heart defects can never be diagnosed as they may not cause any symptoms.</font>
+    </string>
+    <string name="text3_2" formatted="false">\n<font size="18"><b>• Coronary Artery Disease (CAD)</b></font>
+        \n<font size="16">Coronary artery disease is the most common heart disease. People with it have narrow or blocked coronary arteries, which can lead to chest pain, heart attacks, or stroke. Usually, atherosclerosis, a condition sometimes called hardening of the arteries, is the main cause of CAD as it reduces blood flow and decreases oxygen and nutrients that the heart receives.</font>
+    </string>
+    <string name="text3_3" formatted="false">\n<font size="18"><b>• Arrhythmia (abnormal heart rhythms)</b></font>
+        \n<font size="16">When your heart muscle cannot regulate electrical impulses within your heart and your heart beats too quickly (Tachycardia), too slowly (Bradycardia) or in an irregular way (Atrial fibrillation), it means that you\'ve developed arrhythmia.\nGenerally speaking, most arrhythmias have no symptoms or are harmless. However, some patients who develop both heart arrhythmias and other diseases can have sudden and severe symptoms which need urgent medical care.</font>
+    </string>
+    <string name="text3_4" formatted="false">\n<font size="18"><b>• Heart Valve Disease</b></font>
+        \n<font size="16">Heart valve disease means that one or more of your heart valves fail to open and close to keep blood flowing in the correct direction properly. This type of heart disease may be present at birth or can be caused by high blood pressure, CAD, heart infections or a heart attack.</font>
+    </string>
+    <string name="text3_5" formatted="false">\n<font size="18"><b>• Dilated Cardiomyopathy</b></font>
+        \n<font size="16">Dilated cardiomyopathy is a condition that your heart muscle gets stretched, thickened, or stiff. If not treated, your heart will get too weak to pump blood efficiently over time. As a result, you may develop arrhythmia, blood clots in the heart, and heart failure. According to American Heart Association, it usually happens among 20 to 60-year-olds.</font>
+    </string>
+    <string name="text3_6" formatted="false">\n<font size="18"><b>• Pericardial Disease</b></font>
+        \n<font size="16">The pericardium includes visceral pericardium, parietal pericardium, and a middle fluid layer. Any disease that happens on your pericardium is called pericardial disease. Pericarditis or inflammation of the pericardium is one of the most typical pericardial diseases. Please note that people are likely to develop pericarditis after receiving open heart surgery.</font>
+    </string>
+    <string name="text3_7" formatted="false">\n<font size="18"><b>• Heart Failure</b></font>
+       \n<font size="16">With heart failure, a patient\'s heart cannot pump blood as well as it is supposed to meet the body\'s needs. It is usually caused by untreated coronary artery disease, high blood pressure, arrhythmias, etc. Once you develop heart failure, early treatment and lifestyle changes to prevent complications are important because that heart failure cannot be cured.</font>
+        \n<font size="16">With all the information above, you can find that many diseases or arteries damage, such as hypertension, diabetes, coronary disease, heart infections, etc., can contribute to heart disease. For instance, according to the Framingham Study, hypertension accounts for approximately one-quarter of heart failure cases. In the elderly population, as many as 68% of heart failure cases are caused by hypertension. If you\'ve developed a condition that may cause heart disease, you need to change your lifestyle and seek medical care if in need.</font>
+    </string>
+
+
+    <string name="card4_text">Know about Hypotension</string>
+    <string name="text4" formatted="false">Hypotension is a condition that blood pressure is consistently lower than 90/60 mmHg or falls suddenly over 20 mmHg. Hypotension with no symptoms usually doesn\'t need treatment. Nevertheless, accurate diagnosis and categorized therapies are needed if symptoms or sudden fall emerges. Read on to see all types and causes of hypotension.</string>
+    <string name="text4_2" formatted="false">
+        <font size="18"><b>Understanding Hypotension Symptoms</b></font>\n
+        Hypotension symptoms include:
+        <font size="16">• Blurred vision</font>
+        <font size="16">• Dizziness or fainting</font>
+        <font size="16">• Inability to concentrate</font>
+        <font size="16">• Nausea</font>
+        <font size="16">• Rapid breathing</font>
+        <font size="16">• Fatigue</font>
+    </string>
+    <string name="text4_3" formatted="false">\n<font size="18"><b>Understanding Hypotension Types</b></font>\n\n<font size="16">If you keep getting these symptoms and wonder the reason, you can get your blood pressure measured and check below to see whether you belong to these types of hypotension.</font>\n\n
+       \n<font size="18"><b>1.Orthostatic hypotension</b></font>\n\n<font size="16">Hypotension caused by rising from a lying down or sitting position to standing is called orthostatic hypotension. It is common as nearly one-fifth of elderly over 65 years old will have it. Besides, beta-blockers, ACE inhibitors, antidepressants and drugs used to treat Parkinson\'s disease can also lead to orthostatic hypotension</font>\n\n
+       \n<font size="18"><b>2.Postprandial hypotension</b></font>\n\n<font size="16">Postprandial hypotension is often considered a geriatric condition, as it usually appears when older adults finish their eating, and almost no young people will have it. When blood flows to the intestines after a meal, the heart beats faster, while the blood vessels in other parts of the body would constrict to maintain blood pressure. However, some elderly people\'s bodies cannot function normally. When blood flows to the intestines, the heart rate cannot be increased sufficiently, and the vasoconstriction is not enough to maintain blood pressure, which causes a drop in blood pressure.</font>\n\n
+       \n<font size="18"><b>3.Neurally mediated hypotension</b></font>\n\n<font size="16">This type of low blood pressure occurs when the heart and the brain lack communication. People standing for a long time or being very emotional can have neurally mediated hypotension. At that time, the heart needs to pump blood faster to transport blood to the brain. However, the brain delivers the message that the heart rate should be lowered, which brings blood vessels dilatation of lower body and arms, thereby contributing to not enough blood getting to the brain</font>
+    </string>
+    <string name="text">Understanding Other Hypotension Causes</string>
+    <string name="text4_4">Other causes of consistent low blood pressure \n• Pregnancy, hormonal changes affect the blood vessels and circulatory system so that blood pressure may be lower during the first 24 weeks of pregnancy \n• Arrhythmia (abnormal heartbeat) \n • Heart disease \n• Certain over-the-counter drugs used in combination with hypertension drugs \n• Endocrine disorders such as diabetes, adrenal insufficiency and thyroid disease</string>
+    <string name="text4_5">Reasons for sudden fall of blood pressure \n• Loss of blood from bleeding \n• Low body temperature \n• High body temperature \n• Heart muscle disease causing heart failure \n• Sepsis, a severe blood infection \n• Severe dehydration from vomiting diarrhea, or fever \n• A reaction to medication or alcohol \n• A severe allergic reaction</string>
+
+    <string name="card5_text">High Heart Rate Complications</string>
+    <string name="text5">Usually, your heart rate can occasionally exceed the normal range, which is normal when you are exercising, under stress, or has a related disease.</string>
+    <string name="text5_1" formatted="false">However, if your resting heart rate rises over 100 beats per minute not because of psychological stress, it may be a sign of a serious heart condition, tachycardia, which can increase the risk of stroke, heart failure, sudden cardiac arrest, and even death.\nThere was a study conducted by the Copenhagen Male Study in1971, which monitored 3,000 middle-aged men\'s health and resting heart rate for 16 years. They discovered that every 10 to 22 increase in resting heart rate per minute raised the risk of death by 16%. For instance, people who had a resting heart rate over 90 beats per minute elevated their risk of death by 120% to 150%.\nExcept for the high risk of death, there are also complications of a high resting heart rate. Some people with tachycardia may not experience any symptoms or complications. However, others may have some complications that are triggered by a rapid heartbeat.</string>
+    <string name="text5_2" formatted="false">\n<font size="18"><b>Complications of tachycardia:</b></font>
+       \n <font size="16">•Fatigue\n•Angina\n•Heart palpitations\n•Heart failure Stroke\n•Blood clots\n•Cardiac arrest\n•Sudden death\nIf you experience extreme pain or discomfort with your palpitations, seek emergency help immediately.</font>
+    </string>
+
+
+    <string name="card6_text">Target Heart Rate</string>
+    <string name="text6">Target heart rate !(THR or training heart rate) means the suggested range of how often your heart beats during exercise for improving health. It is an important index for you to exercise safely.</string>
+    <string name="text6_1" formatted="false">
+        \n<font size="16">Your THR depends on the highest number of times your heart can beat in one minute, which is your maximum heart rate. Generally speaking, a man\'s estimated maximum heart rate can be calculated as 220 minus his age. If you are a woman, based on research conducted by Northwestern Medicine, you can use the equation HRmax = 206 - (0.88 x your age) to get an accurate result.</font>\n
+        \n<font size="16">Specifically, if you are doing a moderate-intensity activity, your THR should be between 50% to 70% of your maximum heart rate.If you are doing vigorous exercise, your THR should be between 70% to 85% of your maximum heart rate.</font>\n
+        \n<font size="16">For instance, a 40-year-old man\'s maximum heart rate is 220 minus 40, which is 180. The THR should be 50% to 85% of 180, in other words, 90 to 153 beats per minute.</font>
+    </string>
+    <string name="text6_2">If you are training to burn body fat or improve your cardiovascular health, you can use our app to get more accurate and scientific THR automatically. You can skip the math mentioned above and input your age and gender whether you are doing warm-up, moderate training, high-intensity training, or an extremely vigorous workout.</string>
+
+    <string-array name="gender">
+        <item> Male</item>
+        <item> Female</item>
+    </string-array>
+    <string-array name="fasting_blood_suger">
+        <item> 0 </item>
+        <item> 1 </item>
+    </string-array>
+    <string-array name="rest_ECG">
+        <item> 0</item>
+        <item> 1</item>
+        <item> 2</item>
+    </string-array>
+    <string-array name="Thalassemia">
+        <item> 0</item>
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+    </string-array>
+    <string-array name="chest_pain">
+        <item> 0</item>
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+    </string-array>
+    <string-array name="exang">
+        <item> 0</item>
+        <item> 1</item>
+    </string-array>
+    <string-array name="slope">
+        <item> 0</item>
+        <item> 1</item>
+        <item> 2</item>
+    </string-array>
+    <string-array name="ca">
+        <item> 0</item>
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6F5F5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="360dp"
+                        android:background="@drawable/top_background"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/shape_cirle_image"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Check Heart Symptoms"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@id/imageView3"
+                        app:layout_constraintStart_toStartOf="@id/imageView3"
+                        app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="We wish to offer you a useful briefing"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@id/textView"
+                        app:layout_constraintStart_toStartOf="@id/textView"
+                        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1000dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginRight="24dp"
+                        android:background="@drawable/white_background"
+                        android:orientation="vertical"
+                        app:layout_constraintTop_toBottomOf="@+id/textView1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:id="@+id/layout1"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Age"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:padding="5dp"
+                                    android:id="@+id/age"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="55dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/textView3"
+                                    android:background="@drawable/inshape_edite"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout2"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/trestbps"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Trestbps"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/trestbpsE"
+                                    android:padding="5dp"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/trestbps"
+                                    android:background="@drawable/inshape_edite"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout3"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/chol"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Chol"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/cholE"
+                                    android:layout_width="170dp"
+                                    android:layout_height="48dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="55dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/chol"
+                                    android:background="@drawable/inshape_edite"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:padding="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/layout4"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/Thalac"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Thalac"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/ThalacE"
+                                    android:padding="5dp"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="40dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/Thalac"
+                                    android:background="@drawable/inshape_edite"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout5"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/OldPeak"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="OldPeak"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/OldPeakE"
+                                    android:padding="5dp"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="28dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/OldPeak"
+                                    android:background="@drawable/inshape_edite"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout6"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/gender"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Gender"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:padding="5dp"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:id="@+id/sex"
+                                    android:layout_alignTop="@+id/gender"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="35dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/gender"
+                                    android:textAlignment="center"
+
+                                    android:entries="@array/gender" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout7"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/fbs"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Fbs"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:id="@+id/fbsE"
+                                    android:padding="5dp"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignTop="@+id/fbs"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="65dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/fbs"
+                                    android:textAlignment="center"
+                                    android:entries="@array/fasting_blood_suger" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout8"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/restecg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Restecg"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:id="@+id/restecgS"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignTop="@+id/restecg"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="30dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="5dp"
+                                    android:layout_toEndOf="@+id/restecg"
+                                    android:textAlignment="center"
+                                    android:entries="@array/rest_ECG" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout9"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/Thal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Thal"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:id="@+id/ThalS"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignTop="@+id/Thal"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="60dp"
+                                    android:padding="5dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/Thal"
+                                    android:textAlignment="center"
+                                    android:entries="@array/Thalassemia"  />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout10"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/cp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="CP"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:id="@+id/cpS"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignTop="@+id/cp"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="75dp"
+                                    android:padding="5dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/cp"
+                                    android:textAlignment="center"
+                                    android:entries="@array/chest_pain"  />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout14"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/layout10">
+
+                                <TextView
+                                    android:id="@+id/exang"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Exang"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:id="@+id/exangS"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignTop="@+id/exang"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="52dp"
+                                    android:padding="5dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/exang"
+                                    android:textAlignment="center"
+                                    android:entries="@array/exang" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout12"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/slope"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Slope"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:id="@+id/slopeS"
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignTop="@+id/slope"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="55dp"
+                                    android:padding="5dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/slope"
+                                    android:textAlignment="center"
+                                    android:entries="@array/slope"  />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/layout13"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/textView2">
+
+                                <TextView
+                                    android:id="@+id/ca"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Ca"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:layout_width="170dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignTop="@+id/ca"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="80dp"
+                                    android:padding="5dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toEndOf="@+id/ca"
+                                    android:id="@+id/caE"
+                                    android:textAlignment="center"
+                                    android:entries="@array/ca"  />
+
+                            </RelativeLayout>
+                            <Button
+                                android:id="@+id/predict"
+                                android:layout_width="180dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:backgroundTint="@color/basic"
+                                android:text="CHECK"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="80dp"
+                                android:padding="5dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/scrollView" />
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

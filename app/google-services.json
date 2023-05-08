@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812772548003",
+    "project_id": "medical-consult-e5346",
+    "storage_bucket": "medical-consult-e5346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812772548003:android:9d95ed6077bb24ea500e16",
+        "android_client_info": {
+          "package_name": "com.www.mediconsult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812772548003-1kgr957dmj6cgsvod5pbg957lr27lq76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAjlIb3_DPwhJsZdTdAokzKoAP99xAN_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812772548003-1kgr957dmj6cgsvod5pbg957lr27lq76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

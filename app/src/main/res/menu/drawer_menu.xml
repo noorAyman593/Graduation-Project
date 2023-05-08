@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group >
+        <!--<item
+            android:id="@+id/nav_heart"
+            android:icon="@drawable/heart1"
+            android:title="Heart" />-->
+
+        <item
+            android:id="@+id/nav_hosp"
+            android:icon="@drawable/hospital_icon"
+            android:title="Nearby Hospitals" />
+
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/call_icon"
+            android:title="SOS Call" />
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="Info" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_cntus"
+                android:icon="@drawable/contact_icon"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_doctor"
+                android:icon="@drawable/doctor"
+                android:title="Find your Doctor" />
+
+        </menu>
+    </item>
+</menu>
